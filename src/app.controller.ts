@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
   @Get()
   getHello(): string {
-    return '🚀 Bazar API is running successfully!';
+    return '🚀 Bazar API is running successfully on the root path!';
   }
 }
